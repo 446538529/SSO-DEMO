@@ -1,0 +1,9 @@
+server:
+  port: 8000
+  servlet:
+    session:
+      timeout: 30m
+    context-path: /sso-client1
+spring:
+  application:
+    name: sso-client1
